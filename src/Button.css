@@ -1,0 +1,13 @@
+.donut-btn {
+    background-color: #ff615a;
+    border: none;
+    width: 30%;
+    padding: 1rem 0rem;
+    border-radius: 300px;
+    color: white;
+    font-family: inherit;
+    font-size: 1rem;
+    margin: 0.25rem;
+    font-weight: bold;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}

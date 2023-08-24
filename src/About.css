@@ -1,0 +1,14 @@
+.about {
+    margin-top: 1rem;
+    background-color: #f4e8d0;
+    padding: 1rem;
+}
+
+.about h3 {
+    font-size: 2rem;
+    color: #ff615a;
+    padding: 0.5rem 1rem;
+    border-radius: 50%;
+    width: 33%;
+    margin: 0 auto;
+}

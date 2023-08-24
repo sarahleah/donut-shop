@@ -3,11 +3,18 @@
 }
 
 nav ul {
+    min-height: 5vh;
     list-style: none;
     display: flex;
     align-items: center;
-    margin: 0;
+    margin: 0.25rem;
     padding: 0;
+}
+
+nav li {
+    padding: .33rem 1rem;
+    border-right: 1px solid black;
+    font-size: 1rem;
 }
 
 nav li:first-of-type {
@@ -18,12 +25,7 @@ nav li:nth-of-type(2) {
     border-left: 1px solid black;
 }
 
-nav li {
-    padding: .33rem 1rem;
-    border-right: 1px solid black;
-}
-
-nav li:nth-of-type(5) {
+.right-nav li {
     border-left: 1px solid black;
 }
 
@@ -31,9 +33,10 @@ nav {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid black;
-    margin-bottom: 2rem;
+    margin: 0.25rem;
 }
 
 nav img {
-    width: 25px;
+    max-width: 1rem;
+    max-height: 1rem;
 }
